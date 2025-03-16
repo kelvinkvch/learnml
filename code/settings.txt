@@ -1,0 +1,63 @@
+{ /**
+    *better defaults
+  **/
+  "editor.copyWithSyntaxHighlighting": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.emptySelectionClipboard": false,
+  "workbench.editor.enablePreview": false,
+  "window.newWindowDimensions": "inherit",
+  "editor.multiCursorModifier": "ctrlCmd",
+  "files.trimTrailingWhitespace": true,
+  "diffEditor.renderSideBySide": false,
+  "editor.snippetSuggestions": "top",
+  "editor.detectIndentation": false,
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+
+
+
+  "editor.fontFamily": "Fira Code",
+  "editor.fontWeight": "bold",
+  "editor.fontSize": 18,
+  "python.analysis.completeFunctionParens": true,
+  "editor.parameterHints.enabled": false,
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "right"
+  },
+  "notebook.lineNumbers": "on",
+  "python.languageServer": "Pylance",
+    "[python]": {
+      "editor.defaultFormatter": "ms-python.black-formatter",
+      "diffEditor.ignoreTrimWhitespace": false
+    },
+
+  "notebook.formatOnCellExecution": true,
+  "notebook.output.scrolling": true,
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Dracula At Night",
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
+  "editor.tabCompletion": "on",
+  "remote.autoForwardPortsSource": "hybrid",
+  "files.exclude": {
+    "**.*": true,
+  },
+  "python.terminal.activateEnvInCurrentTerminal": true,
+  "workbench.startupEditor": "none",
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontSize": 16,
+
+  /**
+  hidden everthing
+  **/
+"workbench.sideBar.location": "right",
+  "grunt.autoDetect": "on",
+  "workbench.activityBar.location": "hidden",
+"workbench.editor.showTabs": "none",
+"workbench.statusBar.visible": false,
+"editor.minimap.enabled": false,
+
+
+
+}
