@@ -1,3 +1,4 @@
+
 // 将键绑定放在此文件中以覆盖默认值
 [ /**
     *panels
@@ -110,10 +111,16 @@
         "command": "editor.action.insertCursorAtEndOfEachLineSelected",
         "when": "editorfocus && editorHasSelection"
     },
-
-
-
-
+    {
+        "key": "enter",
+        "command": "editor.action.nextMatchFindAction",
+        "when": "findWidgetVisible",
+    },
+    {
+        "key": "shift+enter",
+        "command": "editor.action.previousMatchFindAction",
+        "when": "findWidgetVisible"
+    },
     {
         "key": "ctrl+n",
         "command": "selectNextSuggestion",
